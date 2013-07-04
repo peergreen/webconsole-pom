@@ -49,7 +49,7 @@
           <instructions>
             <_include>-target/classes/META-INF/${project.artifactId}.bnd</_include>
             <_plugin>
-              org.apache.felix.ipojo.bnd.PojoizationPlugin;metadata=${basedir}/src/main/resources/metadata.xml;use-local-schemas=true
+              org.apache.felix.ipojo.bnd.PojoizationPlugin;metadata=${basedir}/src/main/resources/metadata.xml;use-local-schemas=true;include-embed-bundles=true
             </_plugin>
           </instructions>
         </configuration>
